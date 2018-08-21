@@ -2,7 +2,7 @@ package miguel.daggerpoc.featurex;
 
 import javax.inject.Inject;
 
-class XDepPkgPrivateJava {
+public class XDepPkgPrivateJava {
     @Inject
     XDepPkgPrivateJava() {}
 

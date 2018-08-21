@@ -7,6 +7,9 @@ import javax.inject.Inject
 class AppDependencyA
 @Inject
 constructor(private val appDepB: AppDependencyB,
+            /**
+             * this doesn't compile now because XDepPublicJava is encapsulated in the FeatureXComponent.
+              */
             private val xDepPublicJava: XDepPublicJava,
             private val xDepPublicKt: XDepPublicKt) {
 
